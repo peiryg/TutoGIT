@@ -40,8 +40,17 @@
         <section class="body-container container">
             <article>    
                 <h1  class="titre"> LOS TARDOS</h1> 
+
+                <h2 class="article">Faire la croix blanche.</h2>
+                <p>La croix, qui a plutôt la forme d’un signe plus +, peut être construite intuitivement. </p>
+                <center>
+
+                <img src="img/croix.png" alt="" class="image" />
+                <p class='legend'>La croix blanche.</p>
+                
+                <img src="img/croix2.png" alt="" class="image" /></center>
+                <p class='legend'>La croix blanche.</p>
             </article>
-            <h1>Utilisez votre instinct</h1>
         </section>
         <footer class="footer">
             <div class="container">

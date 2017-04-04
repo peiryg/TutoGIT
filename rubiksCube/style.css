@@ -1,8 +1,16 @@
+@font-face{
+    font-family: Tardos;
+    src: url('fonts/JI Burrito.ttf');
+    font-style: Normal;
+    font-size: 24pt;
+}
+
 body{
+    background-color: #f8f8f8;
     padding-top:70px;
 }
 .navbar-brand:hover{
-    opacity:0.5;
+    opacity:0.8;
 }
 .navbar-toggle{
     top:12px;
@@ -10,6 +18,7 @@ body{
 ul > li{
     margin-top:4%;
 }
+
 footer {
     background-color:#f8f8f8;
     border:1px solid #e7e7e7;
@@ -25,10 +34,11 @@ footer {
     text-align:center;
 }
 .body-container{
+    margin-top:7px;
     height:100%;
     background-color:#EAEAEA;
     padding-bottom:20px;
-    margin-bottom:25px;
+    margin-bottom:41px;
 }
 .intro{
     text-align:center;
@@ -47,7 +57,9 @@ h1{
     text-align:center;
 }
 .image{
-    max-width:250px;
+    max-width:300px;
+    width:50%;
+    alignment-adjust: center;
 }
 .legend{
     text-align:center;
@@ -56,6 +68,37 @@ h1{
     color:black;
 }
 ol > li{
-    margin-top:10px;
-    
+    margin-top:1px;
+
+}
+.glyphicon-envelope{
+    left:-5px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 400px;
+    margin:0 auto;
+    display:block;
+}
+.titre{
+    font-family: Tardos; 
+    text-shadow: 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255);
+    font-size: 40pt; 
+    color: red; 
+}
+.article{
+     font-family: Tardos; 
+    text-shadow: 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px #000, 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255);
+    font-size: 40pt; 
+    color: white; 
+    text-align: center;
+}
+.liste{
+    margin-top:0px;
+}
+.etape{
+    border-bottom: 1px black solid;
+    margin-bottom: 2%;
 }
