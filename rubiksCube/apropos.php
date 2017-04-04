@@ -22,6 +22,7 @@
                         <h1  class="titre" style="font-size: 40pt;"> LOS TARDOS</h1>
                     </div>
                     <div class="modal-body">
+                        <a href='https://github.com/peiryg/TutoGIT'>Le projet github</a><br><br>
 
                         <p>
                             Site crée par : <ul>
@@ -30,11 +31,12 @@
                             <li>Bad Motherfucker</li>
 
                         </ul>
+                        
+                        
+                        
                         <p style="font-weight: bold;text-align: right;">
                             <span class="glyphicon glyphicon-envelope"></span><a href="mailto:supermarl9wp@gmail.com">supermarl9wp@gmail.com</a>
                         </p>
-
-
 
                     </div>
                     <div class="modal-footer" style="text-align: center;">

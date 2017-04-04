@@ -42,15 +42,23 @@
                 <h1  class="titre"> LOS TARDOS</h1> 
 
                 <h2 class="article">Faire la croix blanche.</h2>
-                <p>La croix, qui a plutôt la forme d’un signe plus +, peut être construite intuitivement. </p>
                 <center>
-
-                <img src="img/croix.png" alt="" class="image" />
-                <p class='legend'>La croix blanche.</p>
-                
-                <img src="img/croix2.png" alt="" class="image" /></center>
-                <p class='legend'>La croix blanche.</p>
+                    <article class='etape'>
+                        <p>La croix, qui a plutôt la forme d’un signe plus + et les coins peuvent être construit intuitivement. </p>
+                        <img src="img/croix.png" alt="" class="image" />
+                        <p class='legend'>La croix blanche.</p>
+                    </article>
+                    <article class='etape'>
+                        <img src="img/croix2.png" alt="" class="image" />
+                        <p class='legend'>La croix blanche et un côté correctement placé.</p>
+                    </article>
+                    <article class='etape'>
+                        <img src="img/faceblanche.PNG" alt="" class="image" />
+                        <p class='legend'>La face blanche entière.</p>
+                    </article>
+                </center>
             </article>
+            <a href='couronne2.php'>Faire la 2ème couronne</a>   <--- (L'étage du milieu)
         </section>
         <footer class="footer">
             <div class="container">

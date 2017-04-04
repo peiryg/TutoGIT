@@ -41,8 +41,8 @@
             <article>    
                 <h1  class="titre"> LOS TARDOS</h1> 
             </article>
+            <h2 class="article">L'histoire du mec bourre.</h2>
             <article class="etape">
-                <h2 class="article">L'histoire du mec bourre.</h2>
                 <p>
                     D'abord, il faut :
                 <ul class="liste">
@@ -66,7 +66,7 @@
                     U R U' R' U' F' U F
                 </p>
             </article>
-            <article class="etape">
+            <article class='etape'>
                 <p>
                     Le mec bourré veut partir à gauche, mais comme il est bourré, il se trompe de sens et part à droite.<br>
                     Ses potes de gauche montent le chercher.<br>
@@ -82,6 +82,9 @@
                     U' L U L' U F U' F'
                 </p>
             </article>
+
+            <a href='couronne3.php'>Faire la 3ème couronne</a>   <--- (La fin du cube)
+
         </section>
         <footer class="footer">
             <div class="container">

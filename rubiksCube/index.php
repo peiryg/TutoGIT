@@ -67,11 +67,23 @@ include("apropos.php");
                 <p class='legend'>Ernő Rubik</p>
                 <p>Le Rubik’s Cube est un cube dont chaque face est divisée en neuf cubes miniatures qui peuvent tourner indépendamment les uns des autres. En fait le cube est composé d’un axe central portant les centres des 6 faces, de 8 cubes de coin à 3 faces visibles et de 12 cubes d’arête à 2 faces visibles. À l’état final, chaque face du cube de Rubik est d’une couleur homogène et différente des autres, mais la rotation indépendante de chaque face provoque un mélange des petits cubes de coin et d’arête.</p>
                 <br><p>Il y a 3 étapes de résolution du Rubik's cube. Voici les liens vers les étapes. </p>
+
+                <h3>Règles des lettres dans les algorithmes</h3>
+                <p>On a marqué les 6 faces avec les initiales de leurs nom (en anglais)</p>
+                <p>Une lettre toute seule veut dire une rotation dans le sens <strong>des aiguilles d'une montre</strong> de la face alors que le sens <strong>contraire des aiguilles d'une montre est marqué avec un apostrophe</strong> (ex. F').</p>
+                <ul class="letterList">
+                    <li><strong>F (Front)</strong> – Avant</li>
+                    <li><strong>R (Right)</strong> – Droite</li>
+                    <li><strong>U (Up)</strong> – Dessus</li>
+                    <li><strong>B (Back)</strong> – Arrière</li>
+                    <li><strong>L (Left)</strong> – Gauche</li>
+                    <li><strong>D (Down)</strong> – Dessous</li>
+                </ul>
             </article>
             <article class='liste'>
                 <ol>
                     <li><a href='couronne1.php'>Faire la 1ère couronne</a>   <--- (Résolution de la face blanche)</li>
-                    <li><a href='couronne2.php'>Faire la 2ème couronne</a>   <--- (Les 2 lignes du haut)</li>
+                    <li><a href='couronne2.php'>Faire la 2ème couronne</a>   <--- (L'étage du milieu)</li>
                     <li><a href='couronne3.php'>Faire la 3ème couronne</a>   <--- (La fin du cube)</li>
                 </ol>
             </article>
