@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet" type="text/css"/>
-        
+
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Index</title>
         <!-- Bootstrap -->
@@ -27,29 +27,23 @@
                         </a>
                     </p>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>               
-                        <li><a href="apropos.php"><span class="glyphicon glyphicon-info-sign"></span> A propos</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Couronnes <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="couronne1.php">Couronne 1</a></li>
-                                <li><a href="couronne2.php">Couronne 2 </a></li>
-                                <li><a href="couronne3.php">Couronne 3</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li> 
+                        <li><a href="couronne1.php">Couronne 1</a></li>
+                        <li><a href="couronne2.php">Couronne 2 </a></li>
+                        <li class="active"><a href="couronne3.php">Couronne 3</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <section class="body-container container">
-            <article class="titre">        
-                <h1 style="color:#cc0033;font-family:Garamond;font-size:50px;"> LOS TARDOS</h1> 
+            <article>    
+                <h1  class="titre"> LOS TARDOS</h1> 
             </article>
             <article class="etape">
             </article>
-            
+
 
         </section>
         <footer class="footer">

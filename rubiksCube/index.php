@@ -1,18 +1,20 @@
+<?php
+include("apropos.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Index</title>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+
     </head>
     <body>
-
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -29,8 +31,8 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>               
-                        <li><a href="apropos.php"><span class="glyphicon glyphicon-info-sign"></span> A propos</a></li>
+                        <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>               
+                        <li> <a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"></span> A propos</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Couronnes <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -43,11 +45,13 @@
                 </div>
             </div>
         </nav>
+
         <section class="body-container container">
-            <article class="titre">        
-                <h1 style="color:#cc0033;font-family:Garamond;font-size:50px;"> LOS TARDOS</h1> 
+            <article>    
+                <h1  class="titre"> LOS TARDOS</h1> 
             </article>
             <article class='intro'>
+
                 <h3>Comment résoudre un Rubik's cube?</h3>
 
                 <p>Le Rubik’s Cube (ou Cube de Rubik) est un casse-tête inventé par Ernő Rubik en 1974, et qui s’est rapidement répandu sur toute la planète au cours des années 1980.
@@ -71,12 +75,10 @@
                     <li><a href='couronne3.php'>Faire la 3ème couronne</a>   <--- (La fin du cube)</li>
                 </ol>
             </article>
-
-
         </section>
         <footer class="footer">
             <div class="container">
-                <p class="text-muted">&COPY;  Bad Motherfucker Production</p>
+                <p class="text-muted">&COPY;  Los Tardos Production</p>
             </div>
         </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

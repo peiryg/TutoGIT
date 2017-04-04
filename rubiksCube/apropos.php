@@ -13,54 +13,37 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                    </button>
-                    <p>
-                        <a href="index.php">
-                            <img class="navbar-brand" src="img/rubiks-cube.png" alt="Logo">
-                        </a>
-                    </p>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>               
-                        <li><a href="apropos.php"><span class="glyphicon glyphicon-info-sign"></span> A propos</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Couronnes <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="couronne1.php">Couronne 1</a></li>
-                                <li><a href="couronne2.php">Couronne 2 </a></li>
-                                <li><a href="couronne3.php">Couronne 3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <section class="body-container container">
-            <article class="titre">        
-                <h1 style="color:#cc0033;font-family:Garamond;font-size:50px;"> LOS TARDOS</h1> 
-            </article>
-            <article class="etape">
-                <h3>Comment résoudre un Rubik's cube?</h3>
-            </article>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h1  class="titre" style="font-size: 40pt;"> LOS TARDOS</h1>
+                    </div>
+                    <div class="modal-body">
+
+                        <p>
+                            Site crée par : <ul>
+                            <li>Daaqi</li>
+                            <li>KweezWD</li>
+                            <li>Bad Motherfucker</li>
+
+                        </ul>
+                        <p style="font-weight: bold;text-align: right;">
+                            <span class="glyphicon glyphicon-envelope"></span><a href="mailto:supermarl9wp@gmail.com">supermarl9wp@gmail.com</a>
+                        </p>
 
 
-        </section>
-        <footer class="footer">
-            <div class="container">
-                <p class="text-muted">&COPY; 2017 all rights reserved</p>
+
+                    </div>
+                    <div class="modal-footer" style="text-align: center;">
+
+                        &copy Los Tardos Production
+
+                    </div>
+                </div>
             </div>
-        </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+        </div>
     </body>
 </html>
